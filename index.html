@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>さめがめ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>さめがめ</h1>
+    <div id="container"></div>
+
+    <script>
+      const container = document.getElementById('container');
+    
+      // 100回ループしてdivを作成
+      for (let i = 0; i < 100; i++) 
+      {
+        const box = document.createElement('div');
+        box.classList.add('box'); // CSS用のクラスを追加
+        container.appendChild(box);
+      }
+    </script>
+</body>
+</html>

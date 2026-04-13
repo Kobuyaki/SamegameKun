@@ -1,0 +1,19 @@
+#container {
+  display: grid;
+  /* 10列、10行に分割 */
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  
+  gap: 5px;       /* 四角形の隙間 */
+  width: 500px;   /* 全体の幅 */
+  height: 500px;  /* 全体の高さ */
+}
+
+.box {
+  background-color: skyblue;
+}
+
+.color-1 { background-color: #ff6b6b; } /* 赤系 */
+.color-2 { background-color: #4ecdc4; } /* 青系 */
+.color-3 { background-color: #ffe66d; } /* 黄系 */
+.color-0 { background-color: white; } /* 赤系 */
